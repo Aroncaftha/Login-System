@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: black;
+    height: 40px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 4em;
+}
+
+body{
+    background: black;
+    color: white;
+    text-align: center;
+    display: flexbox;
+}
+h1, button{
+    margin:1em;
+    font-family:'Poppins', sans-serif;
+}
+
+a:link{
+    color: white;
+}
+a:hover{
+    color: gray;
+}
+
+p, label{
+    font-family: 'DM Sans', sans-serif;
+}
+form{
+    margin: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    width: 300px;
+    list-style: none;
+    font-weight: lighter;
+    font-size: 10pt;
+    
+}
+
+label{
+    text-align: left;
+    color: white;
+    display: block;
+}
+
+input{
+    margin-bottom: 1.5em;
+    width: 95%;
+    height: 45px;
+    border: 1px solid gray;
+    background: none;
+    color: white;
+    padding-inline-start: 13px; 
+}
+
+button{
+    width: 170px;
+    height: 45px;
+}
+
