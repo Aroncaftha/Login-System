@@ -16,8 +16,12 @@ body{
     display: flexbox;
 }
 h1, button{
-    margin:1em;
+    margin:0.5em;
     font-family:'Poppins', sans-serif;
+}
+h1{
+  font-weight: 400;
+  font-size: 31pt;  
 }
 
 a:link{
@@ -40,14 +44,13 @@ ul{
     width: 300px;
     list-style: none;
     font-weight: lighter;
-    font-size: 10pt;
-    
 }
 
 label{
     text-align: left;
     color: white;
     display: block;
+    font-size: 10pt;
 }
 
 input{
