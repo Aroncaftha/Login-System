@@ -51,10 +51,11 @@ label{
     color: white;
     display: block;
     font-size: 10pt;
+    letter-spacing: 3px;
 }
 
 input{
-    margin-bottom: 1.5em;
+    margin:5px 0px 1.5em 0px;
     width: 95%;
     height: 45px;
     border: 1px solid gray;
